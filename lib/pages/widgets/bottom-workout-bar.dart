@@ -14,7 +14,33 @@ class BottomWorkoutBar extends StatefulWidget {
   State<BottomWorkoutBar> createState() => _BottomWorkoutBarState();
 }
 
-class _BottomWorkoutBarState extends State<BottomWorkoutBar> {
+class _BottomWorkoutBarState extends State<BottomWorkoutBar>
+    with WidgetsBindingObserver {
+  DateTime? pausedDateTime;
+  Duration? currentDuration;
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    switch (state) {
+      case AppLifecycleState.paused:
+        pausedDateTime = DateTime.now();
+        currentDuration =
+            Provider.of<StopWatch>(context, listen: false).duration;
+        Provider.of<StopWatch>(context, listen: false).stopTimer();
+        break;
+      case AppLifecycleState.resumed:
+        var resumedTime = DateTime.now().difference(pausedDateTime!);
+        currentDuration = currentDuration! + resumedTime;
+        Provider.of<StopWatch>(context, listen: false)
+            .startTimer(duration: currentDuration!);
+        break;
+      case AppLifecycleState.inactive:
+        break;
+      case AppLifecycleState.detached:
+        break;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     String twoDigits(int n) => n.toString().padLeft(2, '0');

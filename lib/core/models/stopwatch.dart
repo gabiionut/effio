@@ -12,9 +12,9 @@ class StopWatch extends ChangeNotifier {
     notifyListeners();
   }
 
-  void startTimer() {
+  void startTimer({Duration duration = const Duration(seconds: 1)}) {
     stopTimer();
-    timer = Timer.periodic(const Duration(seconds: 1), (_) => addTime());
+    timer = Timer.periodic(duration, (_) => addTime());
     isRunning = true;
     notifyListeners();
   }
