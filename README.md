@@ -18,6 +18,7 @@ To get started with EFFIO, simply download the app from the Google Play Store. O
   <img src="https://play-lh.googleusercontent.com/Kgpp7zQej9G2qMvmAtycv-9LVc0_2Qe8PuQdwXE72Kutj6VxRGM1gpMOsVx9crwtpw=w5120-h2880" height="400">
   <img src="https://play-lh.googleusercontent.com/_b8dg7MtZA__8U70EchPMpwgZwjgpqYsVgcjcf9-tlWT15dOjeiPhf0CtaCnn8DgFq4=w5120-h2880" height="400">
   <img src="https://play-lh.googleusercontent.com/0yNNwy-nzuoC7ClIZpV3oiy5SnfPdjA10RlMxQ7ifmYSUptA2i5FdQ5xpGZ1Y4zuz9M6=w5120-h2880" height="400">
+  <img src="https://play-lh.googleusercontent.com/_KLKSH4_dYqA-1ly0sM0REsG3XQ_QZZ6-8Ov-C9WuIGCg9UF4KyNFs25aY5pAU817vw=w5120-h2880" height="400">
 </p>
 
 # Download
