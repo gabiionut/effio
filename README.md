@@ -10,3 +10,7 @@ No Equipment Required: With EFFIO, you don't need any equipment to get started. 
 
 Get Started
 To get started with EFFIO, simply download the app from the Google Play Store. Once you've downloaded the app, you can start exploring the different workouts and creating your own customized workout plans.
+
+# Download
+<a href="https://play.google.com/store/apps/details?id=com.tape.effio" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2880px-Google_Play_Store_badge_EN.svg.png?20220907104002"></a>
